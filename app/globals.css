@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 16px;
+}
+
+html, body, :root {
+  height: 100%;
+  background: #0a0a0a;
+  color: #EDEDED;
+  font-feature-settings: "ss01" on, "ss02" on, "cv01" on;
+}
+
+::selection {
+  background: #b3ff2a;
+  color: #111;
+}
+
+a { @apply underline decoration-muted underline-offset-4 hover:decoration-accent transition; }
+
+/* Minimal scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #0a0a0a;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+/* Smooth fade in */
+.reveal {
+  animation: fadeUp 0.8s ease forwards;
+  opacity: 0;
+  transform: translateY(8px);
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

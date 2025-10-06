@@ -1,0 +1,1 @@
+Put background1.mp4 and background2.mp4 in this folder. Use lightweight, muted, looping MP4/H264 if possible.

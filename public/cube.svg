@@ -1,0 +1,11 @@
+<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect width="96" height="96" rx="16" fill="black"></rect>
+  <g transform="translate(48 48)">
+    <g>
+      <polygon points="0,-22 20,-10 0,2 -20,-10" fill="#22d3ee" opacity=".45"></polygon>
+      <polygon points="0,2 20,-10 20,12 0,24" fill="#5eead4" opacity=".55"></polygon>
+      <polygon points="0,2 -20,-10 -20,12 0,24" fill="#a78bfa" opacity=".45"></polygon>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite"></animateTransform>
+    </g>
+  </g>
+</svg>
