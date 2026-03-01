@@ -68,7 +68,7 @@ export default function AboutPage() {
                 I’m a Texas A&amp;M MS-MIS student with experience across data science,
                 IT, and product support. I love connecting <span className="font-semibold">analytics</span>,{" "}
                 <span className="font-semibold">automation</span>, and{" "}
-                <span className="font-semibold">product thinking</span> — turning ideas into shipped features.
+                <span className="font-semibold">product thinking</span> which involves turning ideas into shipped features.
               </p>
               <p className="mt-4">
                 I’ve contributed at <span className="font-semibold">UiPath</span> (Technical Product
@@ -77,7 +77,7 @@ export default function AboutPage() {
               </p>
               <p className="mt-4">
                 I’m targeting roles like <span className="font-semibold">Associate Product Manager</span> and{" "}
-                <span className="font-semibold">Data Analyst</span> — the space where user value, data, and execution meet.
+                <span className="font-semibold">Data Analyst</span> and striving for a space where user value, data, and execution meet.
               </p>
             </div>
 
