@@ -227,7 +227,7 @@ export default function ProjectsAll() {
               "Engineered a live 'AI Copilot' providing real-time answer summarization and chronological tracking for high-stakes business case interviews.",
             ]}
             tags={["AWS Lambda", "Amazon Bedrock", "Python", "Serverless"]}
-            imageSrc="/aws-ai.svg" 
+            imageSrc="/neon-line.svg" 
             side="right"
           />
           <Row
@@ -241,7 +241,7 @@ export default function ProjectsAll() {
               "Implemented rigorous data validation protocols to maintain <b>high integrity</b> during multi-source migration for 5,000+ active product SKUs.",
             ]}
             tags={["AWS Redshift", "SQL Server", "SSIS", "ETL"]}
-            imageSrc="/database.svg"
+            imageSrc="/spark.svg"
             side="left"
           />
           <Row
@@ -255,7 +255,7 @@ export default function ProjectsAll() {
               "Engineered a custom featurization layer to process <b>(n, k, m, P)</b> generator matrices, replacing computationally intensive LP procedures.",
             ]}
             tags={["PyTorch", "Deep Learning", "NumPy", "Scikit-learn"]}
-            imageSrc="/neural-net.svg"
+            imageSrc="/network.svg"
             side="right"
           />
         </div>
