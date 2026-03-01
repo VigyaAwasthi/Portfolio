@@ -215,6 +215,49 @@ export default function ProjectsAll() {
             imageSrc="/heartbeat.svg"
             side="left"
           />
+
+          < Row
+            id="texas-ai"
+            eyebrow="AI & Cloud • Hackathon 2025"
+            title="Texas Interview Intelligence Platform 🚀"
+            lead="Serverless AI ecosystem automating the end-to-end recruitment lifecycle."
+            bullets={[
+              "Architected a <b>100% serverless</b> backend using <b>13 AWS Lambda microservices</b>, DynamoDB, and S3 for scalable session management.",
+              "Integrated <b>Amazon Bedrock (Nova Lite 2)</b> to auto-generate strategic question packets and real-time executive interview reports from raw case docs.",
+              "Engineered a live 'AI Copilot' providing real-time answer summarization and chronological tracking for high-stakes business case interviews.",
+            ]}
+            tags={["AWS Lambda", "Amazon Bedrock", "Python", "Serverless"]}
+            imageSrc="/aws-ai.svg" 
+            side="right"
+          />
+          <Row
+            id="retail-dw"
+            eyebrow="Data Engineering • Chicago M&A"
+            title="Retail Data Warehouse Integration 📊"
+            lead="Hybrid Star Schema architecture for multi-system POS data consolidation."
+            bullets={[
+              "Consolidated <b>500GB+</b> of fragmented data from 3 legacy systems into a high-performance <b>AWS Redshift</b> warehouse via 20+ SSIS ETL packages.",
+              "Optimized query performance by <b>95%</b>, reducing complex join latency from <b>2 minutes to <2 seconds</b> for 50M+ transactional records.",
+              "Implemented rigorous data validation protocols to maintain <b>high integrity</b> during multi-source migration for 5,000+ active product SKUs.",
+            ]}
+            tags={["AWS Redshift", "SQL Server", "SSIS", "ETL"]}
+            imageSrc="/database.svg"
+            side="left"
+          />
+          <Row
+            id="m-height"
+            eyebrow="Deep Learning • Research"
+            title="m-Height Estimation in Random Polytopes 📉"
+            lead="Deep Ensemble framework replacing expensive linear programming for geometric estimation."
+            bullets={[
+              "Developed a <b>three-stage modeling pipeline</b> using Per-Bucket Deep Ensembles to predict m-heights across <b>56,000+</b> skewed samples.",
+              "Optimized loss functions in <b>log₂-space</b> to handle heavy-tailed distributions, achieving superior stability over standard XGBoost/LR baselines.",
+              "Engineered a custom featurization layer to process <b>(n, k, m, P)</b> generator matrices, replacing computationally intensive LP procedures.",
+            ]}
+            tags={["PyTorch", "Deep Learning", "NumPy", "Scikit-learn"]}
+            imageSrc="/neural-net.svg"
+            side="right"
+          />
         </div>
       </div>
     </main>
