@@ -46,7 +46,7 @@ export default function ExperiencePage() {
     },
     {
       timeRange: "OCT 2024 – DEC 2024",
-      title: "Data & Communication Intern",
+      title: "Data Analyst Intern",
       org: "Texas A&M University — ITEC",
       location: "College Station, TX",
       roleBadge: "Internship",
@@ -59,8 +59,8 @@ export default function ExperiencePage() {
       tint: "blue" as const,
     },
     {
-      timeRange: "Feb 2025 – PRESENT",
-      title: "IT Student Technician",
+      timeRange: "Mar 2025 – PRESENT",
+      title: "Student Technician (Data and Analytics)",
       org: "Texas A&M University",
       location: "College Station, TX",
       roleBadge: "Part-time",
