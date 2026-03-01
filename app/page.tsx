@@ -19,7 +19,7 @@ export default function Home() {
               Data ✕ Product
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-white/80">
-              Hi, I’m Vigya Awasthi <br> </br>Bidging analytics, automation, and product
+              Hi, I’m Vigya Awasthi : Bridging analytics, automation, and product
               strategy. I turn data into decisions and ideas into shipped features.
             </p>
             <div className="mt-8 flex gap-3">
